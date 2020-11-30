@@ -30,6 +30,8 @@ body {
 
 /* navigation */
 nav {
+    display: flex;
+    justify-content: space-between;
     margin-top: 2.5rem;
     margin: 2.5rem 12.727rem 0 8.5rem; 
     padding: 1rem 0;
