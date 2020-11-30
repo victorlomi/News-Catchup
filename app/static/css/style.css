@@ -25,4 +25,23 @@ body {
     font-weight: 400;
     color: #343434;
     margin-top: 0.688rem;
+    margin-bottom: 0;
 }
+
+/* navigation */
+nav {
+    margin-top: 2.5rem;
+    margin: 2.5rem 12.727rem 0 8.5rem; 
+    padding: 1rem 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+nav.text {
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+
