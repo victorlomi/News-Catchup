@@ -15,10 +15,11 @@ body {
 
 .hero a {
     text-decoration: none;
+    color: #222;
 }
 
 .hero a:visited {
-    color: blue;
+    color: #222;
 }
 
 .hero h1 {
@@ -145,13 +146,13 @@ header h2 {
 .articles {
     margin: 4rem 8.5rem; 
     display: grid;
-    grid-template-columns: repeat(4, 23.75rem);
+    grid-template-columns: repeat(2, 27.75rem);
     column-gap: 58px;
     row-gap: 40px;
 }
 
 .article-card {
-    width: 23.75rem;
+    width: 27.75rem;
     text-decoration: none;
 }
 
@@ -160,8 +161,8 @@ header h2 {
 }
 
 .article-card img {
-    width: 23.75rem;
-    height: 13.5rem;
+    width: 27.75rem;
+    height: 17.5rem;
 }
 
 .article-card .text {

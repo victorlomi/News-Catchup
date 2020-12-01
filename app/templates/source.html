@@ -30,6 +30,7 @@
 
     {# articles #}
     <div class="articles">
+    {% for article in articles %}
         <div class="article-card">
             <img src="{{ article.urlToImage }}" alt="">
             <div class="text">
@@ -39,5 +40,6 @@
                 <a href={{article.url}} target="blank">Read More</a>
             </div>
         </div>
+    {% endfor %}
     </div>
 {% endblock %}
