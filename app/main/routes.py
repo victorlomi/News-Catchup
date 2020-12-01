@@ -4,4 +4,9 @@ from app.main import bp
 @bp.route('/')
 @bp.route('/index')
 def index():
-    return render_template('index.html') 
+    news_source = {
+        'name': 'vox news',
+        'description': 'The best news source for the woke millenial.',
+        'image': 'images/vox.jpg',
+    }
+    return render_template('index.html', news_source=news_source) 

@@ -5,4 +5,11 @@
         <h1>Choose a News Source</h1>
         <h2>Catch up on the latest news from your favorite news sources. We’ll provide summaries so you can quickly choose an interesting article to read.</h2>
     </div>
+    <div class="sources">
+        <div class="source-card">
+            <img src="{{ url_for('static', filename=news_source.image) }}">
+            <h1>{{ news_source.name }}</h1>
+            <h2>{{ news_source.description }}</h2>
+        </div>  
+    </div>
 {% endblock %}
