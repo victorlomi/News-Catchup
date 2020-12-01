@@ -34,10 +34,10 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 2.5rem 12.727rem 0 8.5rem; 
+    margin: 2.5rem 8.5rem 0 8.5rem; 
     padding: 1rem 0;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 0.063rem solid #ebebeb;
+    border-bottom: 0.063rem solid #ebebeb;
 }
 
 nav.text {
@@ -67,4 +67,39 @@ nav a {
     width: 65ch;
 }
 
+.sources {
+    margin: 4rem 8.5rem; 
+}
 
+.source-card {
+    width: 13.750rem;
+}
+
+.source-card img {
+    width: 13.750rem;
+}
+
+.source-card .text {
+    margin-top: -0.313rem;
+    border-bottom: 0.063rem solid #c8c8c8;
+    border-left: 0.063rem solid #c8c8c8;
+    border-right: 0.063rem solid #c8c8c8c8;
+    padding-bottom: 0.938rem;
+}
+
+.source-card h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #222;
+    padding-left: 0.938rem;
+    padding-top: 0.5rem;
+}
+
+.source-card h2 {
+    margin: 0;
+    color: #222;
+    font-size: 0.9rem;
+    padding-left: 0.938rem;
+    font-weight: 400;
+}
