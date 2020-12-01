@@ -79,8 +79,13 @@ nav a {
     width: 13.750rem;
 }
 
+.source-card:hover {
+    box-shadow: 0 3px 12px 8px #ebebeb;
+}
+
 .source-card img {
     width: 13.750rem;
+    height: 11.5rem;
 }
 
 .source-card .text {
