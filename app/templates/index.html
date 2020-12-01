@@ -6,68 +6,68 @@
         <h2>Catch up on the latest news from your favorite news sources. We’ll provide summaries so you can quickly choose an interesting article to read.</h2>
     </div>
     <div class="sources">
-        <div class="source-card">
+        <a href="/source?q={{news_sources.bbc.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.bbc.image) }}">
             <div class="text">
                 <h1>{{ news_sources.bbc.name }}</h1>
                 <h2>Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.bbc_sports.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.bbc_sports.image) }}">
             <div class="text">
                 <h1>{{ news_sources.bbc_sports.name }}</h1>
                 <h2>BBC Sport is the sports division of the BBC. Get news on scores, fixtures, and videos</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.bleacher_report.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.bleacher_report.image) }}">
             <div class="text">
                 <h1>{{ news_sources.bleacher_report.name }}</h1>
                 <h2>Sports journalists and bloggers covering NFL, MLB, NBA, NHL, MMA, college football and basketball.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.bloomberg.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.bloomberg.image) }}">
             <div class="text">
                 <h1>{{ news_sources.bloomberg.name }}</h1>
                 <h2>Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.business_insider.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.business_insider.image) }}">
             <div class="text">
                 <h1>{{ news_sources.business_insider.name }}</h1>
                 <h2>An American financial and business news website that delivers up to date news.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.cbc_news.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.cbc_news.image) }}">
             <div class="text">
                 <h1>{{ news_sources.cbc_news.name }}</h1>
                 <h2>The latest news from across Canada and around the world.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.cnn.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.cnn.image) }}">
             <div class="text">
                 <h1>{{ news_sources.cnn.name }}</h1>
                 <h2>Find the latest breaking news and information on the top stories.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.espn.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.espn.image) }}">
             <div class="text">
                 <h1>{{ news_sources.espn.name }}</h1>
                 <h2>ESPN is an American multinational basic cable sports.</h2>
             </div>
-        </div>
-        <div class="source-card">
+        </a>
+        <a href="/source?q={{news_sources.fox.id}}" class="source-card">
             <img src="{{ url_for('static', filename=news_sources.fox.image) }}">
             <div class="text">
                 <h1>{{ news_sources.fox.name }}</h1>
                 <h2>An American multinational conservative cable news television channel.</h2>
             </div>
-        </div>
+        </a>
     </div>
 {% endblock %}

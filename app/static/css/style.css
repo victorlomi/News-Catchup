@@ -48,9 +48,6 @@ nav {
     border-bottom: 0.063rem solid #ebebeb;
 }
 
-nav.text {
-}
-
 nav a {
     text-decoration: none;
     color: #222;
@@ -73,6 +70,7 @@ nav a {
     font-size: 1rem;
     color: #4b4b4b;
     width: 65ch;
+    line-height: 1.6;
 }
 
 .sources {
@@ -85,6 +83,7 @@ nav a {
 
 .source-card {
     width: 13.750rem;
+    text-decoration: none;
 }
 
 .source-card:hover {
@@ -120,4 +119,5 @@ nav a {
     padding-left: 0.938rem;
     padding-right: 0.938rem;
     font-weight: 400;
+    line-height: 1.6;
 }
