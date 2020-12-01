@@ -27,4 +27,17 @@
             </h2>
         {% endif %}
     </header>
+
+    {# articles #}
+    <div class="articles">
+        <div class="article-card">
+            <img src="{{ article.urlToImage }}" alt="">
+            <div class="text">
+                <h1>{{ article.title }}</h1>
+                <h2>{{ article.description }}</h2>
+                <h3>{{ simplify_date(article.publishedAt) }}</h3>
+                <a href={{article.url}} target="blank">Read More</a>
+            </div>
+        </div>
+    </div>
 {% endblock %}
