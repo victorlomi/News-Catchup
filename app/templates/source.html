@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <header>
+        {# title #}
+        {% if source in ['bbc-news', 'bbc-sport', 'cbc-news', 'cnn', 'espn']%}
+            <h1>
+                {{ source.split('-')[0].upper() + ' News' }} Articles
+            </h1>
+        {% else %}
+            <h1>
+                {{ source.split('-')[0].title() + ' News' }} Articles
+            </h1>
+        {% endif %}
+        {# subtitle #}
+        {% if source in ['bbc-news', 'bbc-sport', 'cbc-news', 'cnn', 'espn']%}
+            <h2>
+                Below are the latest articles from {{ source.split('-')[0].upper() + ' News' }}.
+                To read the article you find interesting, just click on it and you'll be taken
+                to the source. 
+            </h2>
+        {% else %}
+            <h2>
+                Below are the latests articles from {{ source.split('-')[0].title() + ' News' }}.
+                To read the article you find interesting, just click on it and you'll be taken
+                to the source. 
+            </h2>
+        {% endif %}
+    </header>
+{% endblock %}

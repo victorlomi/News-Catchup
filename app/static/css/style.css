@@ -121,3 +121,23 @@ nav a {
     font-weight: 400;
     line-height: 1.6;
 }
+
+/* Sources Page */
+header {
+    margin: 2.5rem 12.727rem 0 8.5rem; 
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #222;
+    margin-top: 4.375rem;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4b4b4b;
+    width: 65ch;
+    line-height: 1.6;
+}
