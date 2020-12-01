@@ -3,7 +3,6 @@ from app.main import bp
 from app.main import source
 
 @bp.route('/')
-@bp.route('/index')
 def index():
     images = {
         'bbc': 'images/bbc.png',
