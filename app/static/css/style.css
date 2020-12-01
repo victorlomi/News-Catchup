@@ -13,6 +13,14 @@ body {
     align-items: center;
 }
 
+.hero a {
+    text-decoration: none;
+}
+
+.hero a:visited {
+    color: blue;
+}
+
 .hero h1 {
     font-style: italic;
     font-size: 3rem;
