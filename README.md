@@ -1,5 +1,5 @@
 # Password Locker
-A web app to keep up with the latest news. The app makes it easy to check whats going on in the world from different news sources; CNN News, BBC News, and others. The app also shows short descriptions allowing users to quickly decide what they want to read.
+A web app to keep up with the latest news. The app makes it easy to check what's going on in the world from different news sources; CNN News, BBC News, and others. The app also shows short descriptions allowing users to quickly decide what they want to read.
 
 **Author: Victor Lominyo**
 
