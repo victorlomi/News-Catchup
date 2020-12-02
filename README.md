@@ -3,6 +3,9 @@ A web app to keep up with the latest news. The app makes it easy to check what's
 
 **Author: Victor Lominyo**
 
+**Live Link: https://news-catchup-flask.herokuapp.com/**
+
+
 Technologies Used
 =
 - Python 
