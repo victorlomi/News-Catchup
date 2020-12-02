@@ -5,10 +5,6 @@ from app.source import bp
 
 from app.models import article as at
 
-def simplify_date(date):
-    """Simplify the date so that it only contains year-month-day."""
-    return date[0:10]
-
 @bp.route('/source')
 def search_source():
     """Show this view when a source is pressed and show articles."""
@@ -26,5 +22,5 @@ def search_source():
             article["source"], article["author"], article["title"], article["description"],
             article["url"], article["urlToImage"], article["publishedAt"], article["content"]))
     
-    return render_template('source.html', source=news_source, articles=articles, simplify_date=simplify_date, api_key=API_KEY) 
+    return render_template('source.html', source=news_source, articles=articles, api_key=API_KEY) 
 

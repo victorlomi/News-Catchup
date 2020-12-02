@@ -11,3 +11,7 @@ class Article():
         self.urlToImage = urlToImage
         self.publishedAt = publishedAt
         self.content = content
+
+    def simplify_date(self):
+        """Simplify the date so that it only contains year-month-day."""
+        return self.publishedAt[0:10]
