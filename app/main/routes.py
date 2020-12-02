@@ -4,6 +4,9 @@ from app.models import source
 
 @bp.route('/')
 def index():
+    """Show this view in the root route."""
+    
+    # hold all the links to news source logos.
     images = {
         'bbc': 'images/bbc.png',
         'bbcsports': 'images/bbcsports.jpg',
@@ -19,6 +22,7 @@ def index():
         'polygon': 'images/polygon.png',
     }
 
+    # Hold all Source objects to expose to template: index.html.
     news_sources = {
         'bbc': source.Source('bbc-news', 'BBC News', images['bbc']), 
         'bbc_sports': source.Source('bbc-sport', 'BBC Sport', images['bbcsports']), 

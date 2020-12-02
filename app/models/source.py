@@ -1,7 +1,8 @@
 class Source():
-    """Keep track of the properties of a news source"""
+    """Store details about a news source."""
 
     def __init__(self, id, name, image):
+        """Store the id, name, and image of a news source."""
         self.id = id
         self.name = name
         self.image = image
