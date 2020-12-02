@@ -1,6 +1,6 @@
 from flask import render_template, flash, redirect, url_for
 from app.main import bp
-from app.main import source
+from app.models import source
 
 @bp.route('/')
 def index():
