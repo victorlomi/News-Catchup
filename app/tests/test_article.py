@@ -1,6 +1,6 @@
 import unittest
 
-from ..app.models import article
+from app.models import article
 
 class TestArticle(unittest.TestCase):
     """Tests for the class Article."""
